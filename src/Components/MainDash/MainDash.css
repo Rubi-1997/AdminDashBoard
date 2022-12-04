@@ -1,0 +1,19 @@
+/* .MainDash{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+} */
+.MainDash {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    padding-top: 25px;
+    
+}
+@media (max-width: 1200px){
+    .MainDash{
+        justify-content:flex-start;
+        margin-top:2rem;
+    }
+}
+

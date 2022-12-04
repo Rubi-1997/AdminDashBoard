@@ -1,0 +1,32 @@
+.BlogCard{
+        margin:16px;
+        border-radius:5px;
+        box-shadow: 0 2px 5px #ccc;
+        padding:16px;
+        box-sizing:border-box ;  
+        background-color: lightblue; 
+        font-size:25px;
+}
+.Pract{
+    text-align: center;
+}
+@media (min-width:992px) {
+    .BlogCard{
+        width: 45%;
+        display :inline-block;  
+    }
+    
+}
+    /* p:nth-of-type(3){
+    font-size:24px;
+} */
+.BlogCards>button{
+    font-size:24px;
+}
+span{
+    font-weight:400px !important;;
+}
+.likeCount{
+    font-weight: 600;
+    font-size: 28px;
+}
